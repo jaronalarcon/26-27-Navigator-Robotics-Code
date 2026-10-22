@@ -18,4 +18,6 @@ Councilmembers:
 - It is highly suggested that you put your name somewhere in the files that you make, although this is not required.
 - Do not delete any files that you did not create. If you wish to delete a file, notify a councilmember and explain your rationale for deletion. The council will decide how to proceed.
 - If you use generative artificial intelligence (AI) to develop or debug any of your code, please note where you used it and for what purpose you used it. We urge that you avoid using AI to write or debug any code, but we also want you to credit others' work if you choose to use it. (This rule will be revised in the future as necessary to comply with VEX's regulations on the use of AI.)
-- Do not make changes to the README. Only the council can edit the README, but you may make suggestions regarding the display and contents of the README.
+- Do not make changes to the README. Only the council can edit the README, but you may make suggestions regarding its display and contents.
+
+enthrall
