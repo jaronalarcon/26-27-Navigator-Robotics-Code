@@ -7,6 +7,10 @@ import math
 brain=Brain()
 
 # Robot configuration code
+controller_1 = Controller(PRIMARY)
+left_drive_smart = Motor(Ports.PORT2, GearSetting.RATIO_18_1, False)
+right_drive_smart = Motor(Ports.PORT1, GearSetting.RATIO_18_1, True)
+drivetrain = DriveTrain(left_drive_smart, right_drive_smart, 319.19, 295, 40, MM, 1)
 
 
 # wait for rotation sensor to fully initialize
@@ -49,3 +53,11 @@ print("\033[2J")
 from vex import *
 
 # Begin project code
+
+drivetrain.drive_for(FORWARD, 10, INCHES)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 10, INCHES)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 10, INCHES)
+drivetrain.turn_for(LEFT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 10, INCHES)
